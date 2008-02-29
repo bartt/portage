@@ -15,7 +15,7 @@ IUSE=""
 DEPEND="app-emacs/ruby-electric app-emacs/ruby-mode"
 RDEPEND="app-emacs/snippet app-emacs/find-recursive app-emacs/ruby-electric app-emacs/ruby-mode"
 
-SITEFILE=50${PN}-gentoo.el
+SITEFILE=51${PN}-gentoo.el
 DOCS="ChangeLog History README"
 
 src_unpack() {

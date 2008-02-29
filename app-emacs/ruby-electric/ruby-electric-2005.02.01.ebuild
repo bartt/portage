@@ -15,7 +15,7 @@ IUSE=""
 DEPEND=""
 RDEPEND="app-emacs/ruby-mode"
 
-SITEFILE=50${PN}-gentoo.el
+SITEFILE=51${PN}-gentoo.el
 DOCS=""
 
 src_unpack() {
