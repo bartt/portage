@@ -12,14 +12,14 @@ SLOT="0"
 KEYWORDS="alpha amd64 ppc x86"
 IUSE=""
 
-DEPEND=""
+DEPEND="app-emacs/icicles"
 RDEPEND=""
 
 SITEFILE=51${PN}-gentoo.el
 DOCS=""
 
 src_compile() {
-    elisp-compile *.el
+    elisp-compile rcodetools.el
 }
 
 src_install() {

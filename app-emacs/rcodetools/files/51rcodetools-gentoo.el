@@ -5,4 +5,5 @@
 
 (add-to-list 'load-path "@SITELISP@")
 (require 'rcodetools)
-(require 'icicles-rcodetools)
+(if (featurep 'icicles)
+    (require 'icicles-rcodetools))
